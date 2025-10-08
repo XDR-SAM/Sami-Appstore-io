@@ -1,0 +1,218 @@
+[
+  {
+    "image": "https://cdn.pixabay.com/photo/2018/05/08/21/29/spotify-3384019_1280.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 1,
+    "description": "Spotify is a music streaming platform offering millions of songs, podcasts, and playlists from around the world. You can stream online or download for offline listening with personalized recommendations.",
+    "size": 72,
+    "reviews": 10500000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 250000 },
+      { "name": "2 star", "count": 180000 },
+      { "name": "3 star", "count": 320000 },
+      { "name": "4 star", "count": 2200000 },
+      { "name": "5 star", "count": 7800000 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2022/01/21/00/38/youtube-icon-6953526_1280.jpg",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 2,
+    "description": "YouTube lets you watch, upload, and share videos across all topics. Follow your favorite creators, explore music, vlogs, tutorials, and live content anywhere and anytime.",
+    "size": 98,
+    "reviews": 22000000,
+    "ratingAvg": 4.4,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 700000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 15300000 }
+    ]
+  },
+  {
+    "image": "https://e3.365dm.com/23/11/2048x1152/skynews-openai-chatgpt-teaser_6371405.png",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 3,
+    "description": "ChatGPT is an advanced AI chatbot that helps with writing, coding, learning, and brainstorming ideas. You can ask questions, draft messages, or explore complex topics easily.",
+    "size": 45,
+    "reviews": 3800000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 90000 },
+      { "name": "2 star", "count": 60000 },
+      { "name": "3 star", "count": 150000 },
+      { "name": "4 star", "count": 800000 },
+      { "name": "5 star", "count": 2700000 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/08/09/17/52/instagram-1581266_1280.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms Inc.",
+    "id": 4,
+    "description": "Instagram is a photo and video sharing app where users can connect with friends, explore content, and create stories or reels with creative filters and tools.",
+    "size": 120,
+    "reviews": 32000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 900000 },
+      { "name": "3 star", "count": 2100000 },
+      { "name": "4 star", "count": 5000000 },
+      { "name": "5 star", "count": 22800000 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2022/02/09/08/35/tiktok-7002882_1280.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 5,
+    "description": "TikTok allows users to create and share short videos with music, filters, and effects. It’s a hub for creativity and viral trends around the world.",
+    "size": 95,
+    "reviews": 18000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 12400000 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2021/05/24/17/07/whatsapp-6279868_1280.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms Inc.",
+    "id": 6,
+    "description": "WhatsApp is a fast and secure messaging app used by billions of people to send messages, voice notes, videos, and make calls across the world for free.",
+    "size": 40,
+    "reviews": 36000000,
+    "ratingAvg": 4.5,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 700000 },
+      { "name": "3 star", "count": 1400000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 29900000 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2020/10/17/13/21/telegram-5662082_1280.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 7,
+    "description": "Telegram is a fast and privacy-focused messaging app that offers cloud sync, encrypted chats, bots, and large file sharing up to 2GB per file.",
+    "size": 70,
+    "reviews": 7800000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 600000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 4900000 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2016/04/28/23/55/snapchat-1360003_1280.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 8,
+    "description": "Snapchat lets you send disappearing photos and videos, create fun filters, and stay connected with friends through stories and streaks.",
+    "size": 85,
+    "reviews": 15000000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 1100000 },
+      { "name": "4 star", "count": 3500000 },
+      { "name": "5 star", "count": 9400000 }
+    ]
+  },
+  {
+    "image": "https://i.pinimg.com/564x/3c/81/7a/3c817a1285aecd16354408dc4b31d7c5.jpg",
+    "title": "X (Twitter)",
+    "companyName": "X Corp.",
+    "id": 9,
+    "description": "X (formerly Twitter) is a social media platform where users share short messages, images, and opinions in real-time across global communities.",
+    "size": 60,
+    "reviews": 17000000,
+    "ratingAvg": 4.1,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1300000 },
+      { "name": "4 star", "count": 3400000 },
+      { "name": "5 star", "count": 11000000 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2015/05/17/10/51/facebook-770688_960_720.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms Inc.",
+    "id": 10,
+    "description": "Facebook connects people worldwide through posts, photos, videos, and live streams. Join communities, follow pages, and stay in touch with friends and family.",
+    "size": 110,
+    "reviews": 49000000,
+    "ratingAvg": 4.2,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 2100000 },
+      { "name": "2 star", "count": 1200000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 4500000 },
+      { "name": "5 star", "count": 38800000 }
+    ]
+  },
+  {
+    "image": "https://cdn.pixabay.com/photo/2022/08/24/20/20/netflix-7408710_640.png",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "id": 11,
+    "description": "Netflix is a popular streaming service offering a vast collection of movies, series, documentaries, and exclusive originals for subscribers.",
+    "size": 160,
+    "reviews": 25000000,
+    "ratingAvg": 4.5,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1200000 },
+      { "name": "4 star", "count": 3000000 },
+      { "name": "5 star", "count": 19400000 }
+    ]
+  },
+  {
+    "image": "https://lthub.ubc.ca/files/2021/07/zoom-logo.png",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "id": 12,
+    "description": "Zoom is a video conferencing and collaboration platform used for online meetings, webinars, and remote education with HD video and chat features.",
+    "size": 85,
+    "reviews": 9000000,
+    "ratingAvg": 4.6,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1800000 },
+      { "name": "5 star", "count": 6550000 }
+    ]
+  }
+]
