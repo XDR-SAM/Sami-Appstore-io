@@ -1,16 +1,90 @@
-# React + Vite
+## SAMI Appstore — Modern App Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, fast, and production-ready app catalog built with React and Vite. It showcases applications with search, detail pages, installation instructions, and a polished UI.
 
-Currently, two official plugins are available:
+### Live Demo
+- Live site: [sami-io.netlify.app](https://sami-io.netlify.app/)
+- Repository: [XDR-SAM/Sami-Appstore-io](https://github.com/XDR-SAM/Sami-Appstore-io.git)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Ownership & Attribution
+- Owner: **Abdullah Al SAMi** (Bangladesh University, CSE Department)
+- GitHub: [@XDR-SAM](https://github.com/XDR-SAM)
 
-## React Compiler
+## Tech Stack
+- React (functional components, hooks)
+- Vite (dev server, build)
+- React Router v6 (routing, nested routes, loaders/navigation state)
+- Tailwind CSS (utility-first styling)
+- DaisyUI (Tailwind component plugin)
+- React Toastify (non-blocking notifications)
+- ESLint (code quality)
+- Netlify (deployment)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Features
+- Searchable app catalog with debounced filtering
+- Rich app cards (image, downloads, rating)
+- App details page (`/apps/:id`)
+- Installation page (`/installation`)
+- Friendly error pages and not-found handling
+- Global and inline loading states with a branded spinner
+- Responsive layout with modern UI patterns
 
-## Expanding the ESLint configuration
+## Project Structure (high level)
+- `src/pages/home/Home.jsx` — Landing page and trending apps section
+- `src/pages/apps/Apps.jsx` — App listing with search
+- `src/pages/apps/AppDetails.jsx` — App details view
+- `src/pages/installation/Installation.jsx` — Installation instructions
+- `src/pages/errorpage/*` — Error and not-found routes
+- `src/pages/root/Root.jsx` — Root layout (navbar, footer, route loading)
+- `src/components/LoadingSpinner.jsx` — Shared spinner (supports inline and fullscreen)
+- `src/router/router.jsx` — Route definitions
+- `public/appdata.json` — App catalog data source
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequisites
+- Node.js 18+ and npm
+
+### Installation
+1. Clone the repository
+   - `git clone https://github.com/XDR-SAM/Sami-Appstore-io.git`
+   - `cd Sami-Appstore-io`
+2. Install dependencies
+   - `npm install`
+
+### Development
+- Start the dev server
+  - `npm run dev`
+- Open the local URL printed in your terminal
+
+### Build
+- Production build
+  - `npm run build`
+- Preview the production build
+  - `npm run preview`
+
+## Data & Routing
+- App data is served from `public/appdata.json` (fetched at runtime).
+- Routing is powered by React Router v6 with a root layout and child routes:
+  - `/` → Home
+  - `/apps` → App catalog (search-enabled)
+  - `/apps/:id` → App details
+  - `/installation` → Installation guide
+  - Fallback routes → Error/Not Found
+- Loading states:
+  - Global: shown via `useNavigation()` in `Root.jsx`
+  - Inline: shown inside sections (e.g., Apps search results)
+
+## Styling
+- Tailwind CSS is configured via `src/index.css` and PostCSS.
+- DaisyUI plugin is enabled for component primitives.
+
+## Deployment
+- Deployed on Netlify
+- Production URL: [sami-io.netlify.app](https://sami-io.netlify.app/)
+
+## Contributing
+PRs and issues are welcome. Please ensure code follows the current patterns (React hooks, Tailwind styling) and passes lint checks.
+
+## License & Ownership
+All rights reserved. The project is owned and maintained by **Abdullah Al SAMi**. For inquiries, please reach out via the owner’s GitHub profile: [@XDR-SAM](https://github.com/XDR-SAM).
