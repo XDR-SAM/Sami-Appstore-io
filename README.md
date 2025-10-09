@@ -17,7 +17,7 @@ A responsive, fast, and production-ready app catalog built with React and Vite. 
 - Tailwind CSS (utility-first styling)
 - DaisyUI (Tailwind component plugin)
 - React Toastify (non-blocking notifications)
-- ESLint (code quality)
+- Recharts library (for charts)
 - Netlify (deployment)
 
 ## Key Features

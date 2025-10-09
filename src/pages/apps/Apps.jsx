@@ -1,9 +1,6 @@
 import { useState, useEffect } from 'react';
-// import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-// import { Link, useParams } from 'react-router-dom';
 import iconDownloads from '../../assets/icon-downloads.png';
-// import downloadIcon from '../../assets/icon-downloads.png';
 import LoadingSpinner from '../../components/LoadingSpinner';
 
 const Apps = () => {

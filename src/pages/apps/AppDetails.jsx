@@ -1,15 +1,11 @@
 import { useState, useEffect } from 'react';
-// import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-// import { useParams, useNavigate, Link } from 'react-router-dom';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 // import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import { toast } from 'react-toastify';
 import iconDownloads from '../../assets/icon-downloads.png';
 import iconRatings from '../../assets/icon-ratings.png';
-// import iconRating from '../../assets/icon-ratings.png';
 import iconReview from '../../assets/icon-review.png';
-// import reviewIcon from '../../assets/icon-review.png';
 import LoadingSpinner from '../../components/LoadingSpinner';
 
 const AppDetails = () => {

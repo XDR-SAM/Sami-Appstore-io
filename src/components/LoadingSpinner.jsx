@@ -12,9 +12,9 @@ const LoadingSpinner = ({ inline = false }) => {
                 /> */}
                 <img 
                     src={logo} 
-                    alt="Loading"
+                    alt="Loading hocche"
                     // className="w-24 h-24 animate-spin"
-                    className="w-20 h-20 sm:w-24 sm:h-24 animate-spin"
+                    className="w-500 h-500 sm:w-24 sm:h-24 animate-spin"
                 />
             </div>
         );

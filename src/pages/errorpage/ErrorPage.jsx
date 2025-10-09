@@ -2,7 +2,6 @@ import { useNavigate } from 'react-router-dom';
 // import { useNavigate, useLocation } from 'react-router-dom';
 // import React from 'react';
 import error404 from '../../assets/error-404.png';
-// import notFoundImage from '../../assets/error-404.png';
 
 const ErrorPage = () => {
     const navigate = useNavigate();

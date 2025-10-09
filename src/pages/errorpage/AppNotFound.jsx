@@ -15,7 +15,7 @@ const AppNotFound = () => {
                     
                 
                     {/* <div className="w-full max-w-[800px] h-auto mb-8"> */}
-                    <div className="w-full max-w-[750px] h-auto mb-8">
+                    <div className="w-full max-w-[500px] h-auto mb-8">
                         <img 
                             src={appError} 
                             alt="" 

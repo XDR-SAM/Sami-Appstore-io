@@ -1,7 +1,5 @@
 import { useState, useEffect } from 'react';
-// import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-// import { Link, useNavigate } from 'react-router-dom';
 import playstore from '../../assets/playstore.png';
 import appstore from '../../assets/appstore.png';
 import hero from '../../assets/hero.png';
