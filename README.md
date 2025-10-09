@@ -1,4 +1,4 @@
-## SAMI Appstore — Modern App Showcase
+## SAMI Appstore Sami-Io
 
 A responsive, fast, and production-ready app catalog built with React and Vite. It showcases applications with search, detail pages, installation instructions, and a polished UI.
 
@@ -40,7 +40,7 @@ A responsive, fast, and production-ready app catalog built with React and Vite. 
 - `src/router/router.jsx` — Route definitions
 - `public/appdata.json` — App catalog data source
 
-## Getting Started
+## How to start
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -60,31 +60,12 @@ A responsive, fast, and production-ready app catalog built with React and Vite. 
 ### Build
 - Production build
   - `npm run build`
-- Preview the production build
-  - `npm run preview`
 
-## Data & Routing
-- App data is served from `public/appdata.json` (fetched at runtime).
-- Routing is powered by React Router v6 with a root layout and child routes:
-  - `/` → Home
-  - `/apps` → App catalog (search-enabled)
-  - `/apps/:id` → App details
-  - `/installation` → Installation guide
-  - Fallback routes → Error/Not Found
-- Loading states:
-  - Global: shown via `useNavigation()` in `Root.jsx`
-  - Inline: shown inside sections (e.g., Apps search results)
 
-## Styling
-- Tailwind CSS is configured via `src/index.css` and PostCSS.
-- DaisyUI plugin is enabled for component primitives.
 
 ## Deployment
 - Deployed on Netlify
 - Production URL: [sami-io.netlify.app](https://sami-io.netlify.app/)
-
-## Contributing
-PRs and issues are welcome. Please ensure code follows the current patterns (React hooks, Tailwind styling) and passes lint checks.
 
 ## License & Ownership
 All rights reserved. The project is owned and maintained by **Abdullah Al SAMi**. For inquiries, please reach out via the owner’s GitHub profile: [@XDR-SAM](https://github.com/XDR-SAM).
