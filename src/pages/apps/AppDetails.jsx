@@ -144,8 +144,8 @@ const AppDetails = () => {
                             // className={`w-full sm:w-auto px-8 py-3 font-semibold text-white rounded-lg transition-all ${isInstalled ? 'bg-gray-400 cursor-not-allowed' : 'bg-[#00d390] hover:bg-[#00bd80]'}`}
                             className={`w-full sm:w-auto px-8 py-3 font-semibold text-white transition-all duration-200 ${
                                 isInstalled 
-                                    ? 'bg-gray-400 cursor-not-allowed' 
-                                    : 'bg-[#00d390] hover:bg-[#00bd80] hover:shadow-lg'
+                                    ? 'bg-[#00d390] cursor-not-allowed' 
+                                    : 'bg-[#00d390] hover:bg-[#00a06d] hover:shadow-lg'
                             }`}
                         >
                             {isInstalled ? 'Installed' : `Install Now (${app.size} MB)`}
@@ -159,10 +159,10 @@ const AppDetails = () => {
                     {/* <h2 className="text-2xl font-semibold text-[#001931] mb-6">Ratings</h2> */}
                     <h2 className="text-xl sm:text-2xl font-semibold text-[#001931] mb-6">Ratings</h2>
                     
-                    <div className="w-full overflow-x-auto">
-                        {/* <div style={{ minWidth: '500px', height: '300px' }}> */}
-                        <div style={{ minWidth: '600px', height: '300px' }}>
-                            <ResponsiveContainer width="100%" height="100%">
+                <div className="w-full">
+                    {/* Responsive fixed heights per breakpoint to avoid horizontal scroll on small devices */}
+                    <div className="h-56 sm:h-64 lg:h-[300px]">
+                        <ResponsiveContainer width="100%" height="100%">
                                 <BarChart 
                                     data={chartData}
                                     layout="vertical"

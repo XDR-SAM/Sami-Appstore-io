@@ -198,9 +198,9 @@ const Home = () => {
                                         </span>
                                     </div>
                                     
-                                    <div className="flex items-center gap-1">
+                                    <div className="flex items-center gap-1 bg-orange-50 px-2 py-0.5 rounded">
                                         <span className="text-orange-500 text-lg">★</span>
-                                        <span className="text-sm font-medium text-[#001931]">
+                                        <span className="text-sm font-medium text-orange-700">
                                             {getHighestRating(app.ratings)}
                                         </span>
                                     </div>

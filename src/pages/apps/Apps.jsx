@@ -126,7 +126,7 @@ const Apps = () => {
                         <p className="text-gray-500 mt-1">Can't find what you're looking for 😕</p>
                         {/* <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"> */}
                         <button className="mt-4 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
-                            Try Again
+                            Try Again Vhai
                         </button>
                     </div>
                 ) : (
@@ -154,16 +154,16 @@ const Apps = () => {
                                     
                                     <div className="flex items-center justify-between">
                                         {/* <div className="flex items-center gap-1.5 bg-[#F1F5E8] px-3 py-1 rounded"> */}
-                                        <div className="flex items-center gap-1.5 bg-[#F1F5E8] px-2.5 py-1 rounded">
+                                        <div className="flex items-center gap-1.5 bg-[#f1f7e5] px-2.5 py-1 rounded">
                                             <img src={iconDownloads} alt="Downloads" className="w-4 h-4" />
                                             <span className="text-sm font-medium text-[#001931]">
                                                 {formatDownloads(app.downloads)}
                                             </span>
                                         </div>
-                                        
-                                        <div className="flex items-center gap-1">
+                                        {/* image use korlam na emoji die kaj chalay dilam */}
+                                        <div className="flex items-center gap-1 bg-orange-50 px-2 py-0.5 rounded">
                                             <span className="text-orange-500 text-lg">★</span>
-                                            <span className="text-sm font-medium text-[#001931]">
+                                            <span className="text-sm font-medium text-orange-700">
                                                 {getHighestRating(app.ratings)}
                                             </span>
                                         </div>

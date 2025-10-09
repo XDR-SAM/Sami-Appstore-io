@@ -39,7 +39,7 @@ const ErrorPage = () => {
                         onClick={() => navigate('/')}
                         // onClick={() => navigate(-1)}
                         // className="w-[150px] h-[50px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold rounded-lg hover:shadow-lg transition-all"
-                        className="w-[150px] h-[50px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold hover:shadow-lg transition-all duration-200"
+                        className="w-[150px] h-[50px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold hover:shadow-lg transition-all duration-200 rounded-lg"
                     >
                         Go Back
                     </button>

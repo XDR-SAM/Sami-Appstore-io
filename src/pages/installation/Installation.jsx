@@ -135,7 +135,7 @@ const Installation = () => {
                             // className="px-6 py-3 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold rounded-lg hover:shadow-xl hover:scale-105 transition-all"
                             className="px-6 py-3 bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white font-semibold rounded-lg hover:shadow-lg hover:scale-105 transition-all duration-200"
                         >
-                            🚀 Browse Apps
+                            lets find apps 📦
                         </Link>
                     </div>
                 ) : (
