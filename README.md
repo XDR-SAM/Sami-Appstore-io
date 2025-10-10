@@ -10,7 +10,7 @@ A responsive, fast, and production-ready app catalog built with React and Vite. 
 - Owner: **Abdullah Al SAMi** (Bangladesh University, CSE Department)
 - GitHub: [@XDR-SAM](https://github.com/XDR-SAM)
 
-## Tech Stack
+## Plugins and librarys Technologies
 - React (functional components, hooks)
 - Vite (dev server, build)
 - React Router v6 (routing, nested routes, loaders/navigation state)
@@ -20,7 +20,7 @@ A responsive, fast, and production-ready app catalog built with React and Vite. 
 - Recharts library (for charts)
 - Netlify (deployment)
 
-## Key Features
+## Features
 - Searchable app catalog with debounced filtering
 - Rich app cards (image, downloads, rating)
 - App details page (`/apps/:id`)
@@ -29,7 +29,7 @@ A responsive, fast, and production-ready app catalog built with React and Vite. 
 - Global and inline loading states with a branded spinner
 - Responsive layout with modern UI patterns
 
-## Project Structure (high level)
+## Project Structure navigation
 - `src/pages/home/Home.jsx` — Landing page and trending apps section
 - `src/pages/apps/Apps.jsx` — App listing with search
 - `src/pages/apps/AppDetails.jsx` — App details view
@@ -40,7 +40,7 @@ A responsive, fast, and production-ready app catalog built with React and Vite. 
 - `src/router/router.jsx` — Route definitions
 - `public/appdata.json` — App catalog data source
 
-## How to start
+## How to start 
 
 ### Prerequisites
 - Node.js 18+ and npm
@@ -65,7 +65,4 @@ A responsive, fast, and production-ready app catalog built with React and Vite. 
 
 ## Deployment
 - Deployed on Netlify
-- Production URL: [sami-io.netlify.app](https://sami-io.netlify.app/)
-
-## License & Ownership
-All rights reserved. The project is owned and maintained by **Abdullah Al SAMi**. For inquiries, please reach out via the owner’s GitHub profile: [@XDR-SAM](https://github.com/XDR-SAM).
+- Production URL : [sami-io.netlify.app](https://sami-io.netlify.app/)
