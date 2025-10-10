@@ -1,3 +1,5 @@
+
+
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 // import { Link, useNavigate } from 'react-router/dom';
@@ -18,7 +20,7 @@ const Installation = () => {
     useEffect(() => {
         sortApps();
     }, [sortOrder]);
-    // sortorder install nai
+    // sortorder install 
 
     const loadInstalledApps = () => {
         const installedIds = JSON.parse(localStorage.getItem('installedApps') || '[]');
@@ -27,7 +29,13 @@ const Installation = () => {
             .then(res => res.json())
             .then(data => {
                 const installed = data.filter(app => installedIds.includes(app.id));
-                setInstalledApps(installed);
+                const sorted = [...installed];
+                if (sortOrder === 'high-low') {
+                    sorted.sort((a, b) => b.downloads - a.downloads);
+                } else {
+                    sorted.sort((a, b) => a.downloads - b.downloads);
+                }
+                setInstalledApps(sorted);
                 // setIsLoading(false);
             })
             .catch(err => console.error('Error loading apps:', err));
@@ -194,7 +202,7 @@ const Installation = () => {
                                     </div>
                                 </div>
 
-                                {/* Uninstall button */}
+                      
                                 <button
                                     onClick={() => handleUninstall(app.id, app.title)}
                                     // className="bg-[#00d390] text-white font-semibold px-6 py-2.5 hover:bg-[#00bd80] transition-colors flex-shrink-0 w-full sm:w-auto"
