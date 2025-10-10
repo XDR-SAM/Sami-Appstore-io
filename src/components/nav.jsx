@@ -27,12 +27,12 @@ const Navbar = () => {
           <div className="w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0">
             <img 
               src={logo} 
-              alt="Sami.io Logo" 
+              alt="Sami.io logo" 
               className="w-full h-full object-contain"
             />
           </div>
           {/* <span className="text-base font-bold text-purple-600"> */}
-          <span className="text-sm sm:text-base font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+          <span className="text-lg sm:text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
             Sami.io
           </span>
         </Link>
