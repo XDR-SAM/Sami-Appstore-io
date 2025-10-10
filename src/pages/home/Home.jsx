@@ -35,6 +35,8 @@ const Home = () => {
         return <LoadingSpinner />;
     }
 
+    // Old Logic 
+    /*
     const getHighestRating = (ratings) => {
         if (!ratings || ratings.length === 0) return 5;
         // const max = Math.max(...ratings.map(r => parseInt(r.name.split(' ')[0])));
@@ -42,6 +44,18 @@ const Home = () => {
             current.count > prev.count ? current : prev
         );
         return parseInt(max.name.split(' ')[0]);
+    };
+    */
+
+    //  get average rating
+    const getAverageRating = (ratings) => {
+        if (!ratings || ratings.length === 0) return 5;
+        const total = ratings.reduce((sum, r) => {
+            const stars = parseInt(r.name.split(' ')[0]);
+            return sum + stars * r.count;
+        }, 0);
+        const totalCount = ratings.reduce((sum, r) => sum + r.count, 0);
+        return (total / totalCount).toFixed(1);
     };
 
     const formatDownloads = (downloads) => {
@@ -103,20 +117,20 @@ const Home = () => {
 
 </div>
   </section>
+
             {/* hero image */}
-                <div className="flex justify-center">
-                    {/* <img 
-                        src={hero} 
-                        alt="" 
-                        className="w-full max-w-5xl h-auto"
-                    /> */}
-                    <img 
-                        src={hero} 
-                        alt="" 
-                        className="w-full max-w-4xl h-auto"
-                    />
-                </div>
-            
+            <div className="flex justify-center">
+                {/* <img 
+                    src={hero} 
+                    alt="" 
+                    className="w-full max-w-5xl h-auto"
+                /> */}
+                <img 
+                    src={hero} 
+                    alt="" 
+                    className="w-full max-w-4xl h-auto"
+                />
+            </div>
 
             {/* Stats banner */}
             {/* <section className="w-full bg-gradient-to-br from-[#632EE3] to-[#9F62F2] py-16 lg:py-20"> */}
@@ -201,7 +215,8 @@ const Home = () => {
                                     <div className="flex items-center gap-1 bg-orange-50 px-2 py-0.5 rounded">
                                         <span className="text-orange-500 text-lg">★</span>
                                         <span className="text-sm font-medium text-orange-700">
-                                            {getHighestRating(app.ratings)}
+                                            {/* {getHighestRating(app.ratings)} */}
+                                            {getAverageRating(app.ratings)}
                                         </span>
                                     </div>
                                 </div>
