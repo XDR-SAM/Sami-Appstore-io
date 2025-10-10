@@ -49,9 +49,20 @@ const Apps = () => {
         }
     }, [searchQuery, allApps]);
 
-    const getHighestRating = (ratings) => {
+    // const getHighestRating = (ratings) => {
+    //     if (!ratings || ratings.length === 0) return 5;
+    //     // const max = Math.max(...ratings.map(r => parseInt(r.name.split(' ')[0])));
+    //     const max = ratings.reduce((prev, current) => 
+    //         current.count > prev.count ? current : prev
+    //     );
+    //     return parseInt(max.name.split(' ')[0]);
+    // };
+
+    // new logic use ratingAvg 
+    const getHighestRating = (app) => {
+        if (app.ratingAvg) return app.ratingAvg; // use average rating from JSON if exists
+        const ratings = app.ratings;
         if (!ratings || ratings.length === 0) return 5;
-        // const max = Math.max(...ratings.map(r => parseInt(r.name.split(' ')[0])));
         const max = ratings.reduce((prev, current) => 
             current.count > prev.count ? current : prev
         );
@@ -163,8 +174,11 @@ const Apps = () => {
                                         {/* image use korlam na emoji die kaj chalay dilam */}
                                         <div className="flex items-center gap-1 bg-orange-50 px-2 py-0.5 rounded">
                                             <span className="text-orange-500 text-lg">★</span>
-                                            <span className="text-sm font-medium text-orange-700">
+                                            {/* <span className="text-sm font-medium text-orange-700">
                                                 {getHighestRating(app.ratings)}
+                                            </span> */}
+                                            <span className="text-sm font-medium text-orange-700">
+                                                {getHighestRating(app)}
                                             </span>
                                         </div>
                                     </div>
