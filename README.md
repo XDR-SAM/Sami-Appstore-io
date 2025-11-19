@@ -1,3 +1,5 @@
+![image](appstoress.png)
+
 ## SAMI Appstore Sami-Io
 
 A responsive, fast, and production-ready app catalog built with React and Vite. It showcases applications with search, detail pages, installation instructions, and a polished UI.
